@@ -30,6 +30,7 @@ SOONG_CONFIG_NAMESPACES += lineageGlobalVars
 SOONG_CONFIG_lineageGlobalVars += \
     additional_gralloc_10_usage_bits \
     gralloc_handle_has_reserved_size \
+    has_memfd_backport \
     has_legacy_camera_hal1 \
     needs_camera_boottime \
     target_init_vendor_lib \
